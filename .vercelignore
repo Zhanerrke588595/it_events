@@ -1,0 +1,21 @@
+# Ignore backups, large files, and local-only files from deploy
+*.backup
+*.backup.json
+db.json.backup
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.local
+.env.*.local
+node_modules/
+.git
+**/*.zip
+**/*.exe
+**/*.accdb
+**/*.lnk
+**/*.pdf
+**/*.doc*
+# keep built output
+!dist/**
