@@ -1,0 +1,31 @@
+.vercel
+
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+.vercel/
+
+# local env
+.env
+.env.local
+.env.*.local
+
+# backups and large files
+*.backup
+*.backup.json
+db.json.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# vscode
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
