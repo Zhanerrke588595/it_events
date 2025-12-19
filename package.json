@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+     "start": "json-server --watch db.json --port $PORT"
+    
   },
   "dependencies": {
     "@radix-ui/react-accordion": "1.2.2",
@@ -48,7 +50,9 @@
     "tailwindcss-animate": "^1.0.7",
     "terser": "latest",
     "tsx": "latest",
-    "yaml": "latest"
+    "yaml": "latest",
+    "json-server": "^0.17.4"
+
   },
   "devDependencies": {
     "@types/node": "25.0.1",
@@ -57,6 +61,7 @@
     "@vitejs/plugin-react": "5.1.2",
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
+    "json-server": "^1.0.0-beta.3",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "5.9.3",
